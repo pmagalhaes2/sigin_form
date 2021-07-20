@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: wght @ 400; 500; 700 & display = swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #1C1E33;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.form-container {
+    background: #25273E;
+    margin: 150px auto;
+    width: 400px
+}
+
+form {
+    padding: 20px;
+}
+
+form h3 {
+    text-align: center;
+    color: #F0F7EE;
+    font-size: 30px;
+}
+
+form .input-container {
+    position: relative;
+    margin: 15px;
+}
+
+form .input-container input,
+input[type="submit"] {
+    width: 100%;
+    height: 45px;
+    border-radius: 25px;
+}
+
+form input[type="submit"] {
+    border: 0;
+    background: #EE3A57;
+    color: #F0F7EE;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+form .input-container input {
+    border: 2px solid #EE3A57;
+    background: #25273E;
+    color: #F0F7EE;
+    padding: 0 55px 0 25px;
+}
+
+form .input-container input::placeholder {
+    color: #8D918B;
+    font-size: 15px;
+}
+
+svg {
+    right: 15px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: calc(50% - 10px);
+    color: #8D918B;
+}
+
+.options-container {
+    padding: 0 20px;
+    margin: 20px auto;
+    color: #8D918B;
+    font-size: 15px;
+}
+
+.options-container .checkbox-container,
+a {
+    display: inline-block;
+    width: 50%;
+}
+
+.options-container a {
+    text-align: right;
+    color: #EE3A57;
+    text-decoration: none;
+}
+
+.form-container .sign-options {
+    color: #F0F7EE;
+    padding: 100px 100px 0 100px;
+    text-align: center;
+    justify-content: end
+}
+
+form .social-media-container {
+    margin: 20px auto;
+    width: fit-content;
+    align-content: center;
+}
+
+form .social-media-container .icon-container {
+    background: #375c98;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+form .social-media-container .icon-container:nth-child(2) {
+    background: #C54F33;
+}
+
+form .social-media-container .icon-container:nth-child(3) {
+    background: #4dadf2;
+}
+
+form .social-media-container .icon-container svg {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 10px);
+    color: #F0F7EE;
+}
+
+hr {
+    color: #818181;
+}
+
+.footer {
+    width: fit-content;
+    margin: 20px auto;
+    color: #8D918B;
+}
+
+.form-container .footer a {
+    color: #EE3A57;
+    text-decoration: none;
+    display: inline;
+}

@@ -42,6 +42,7 @@ form input[type="submit"] {
     color: #F0F7EE;
     font-weight: bold;
     font-size: .9rem;
+    margin-bottom: 30px;
 }
 
 form .input-container input {
@@ -73,12 +74,12 @@ svg {
 }
 
 .options-container .checkbox-container,
-a {
+.options-container a {
     display: inline-block;
     width: 50%;
 }
 
-.options-container a {
+a {
     text-align: right;
     color: #EE3A57;
     text-decoration: none;
@@ -86,7 +87,6 @@ a {
 
 .form-container .sign-options {
     color: #F0F7EE;
-    padding: 100px 100px 0 100px;
     text-align: center;
     justify-content: end
 }
@@ -122,16 +122,11 @@ form .social-media-container .icon-container svg {
 
 hr {
     color: #818181;
+    margin: 15px auto;
 }
 
 .footer {
     width: fit-content;
     margin: 20px auto;
     color: #8D918B;
-}
-
-.form-container .footer a {
-    color: #EE3A57;
-    text-decoration: none;
-    display: inline;
 }
